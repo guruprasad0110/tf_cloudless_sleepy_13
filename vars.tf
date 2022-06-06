@@ -7,7 +7,7 @@ variable "sample_var" {
 
 variable "Network_type" {
   description = "Type of network"
-  default = "Abc"
+  default = "public"
 }
 
 variable "sensitive_var" {
