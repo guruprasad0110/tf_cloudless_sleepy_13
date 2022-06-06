@@ -7,6 +7,7 @@ variable "sample_var" {
 
 variable "Network_type" {
   description = "Type of network"
+  default = "Abc"
 }
 
 variable "sensitive_var" {
@@ -27,11 +28,13 @@ variable "TF_VERSION" {
 variable "aws_access_key" {
   description  = "AWS access key"
   type         = string
+  default = "abc"
 }
 
 variable "aws_secret_key" {
   description  = "AWS secret key"
   type         = string
+  default = "ad"
 }
 
 variable "aws_region" {
